@@ -1,0 +1,53 @@
+<!--<ion-content>
+    <ion-scroll direction="x" class="storeroll">
+      <div style="width: 800%; height: 400px; background: url('img/tt.png') repeat"></div>
+    </ion-scroll> -->
+     <div class=" ">
+      <div class="">
+        <br><br>
+        <ion-scroll  scrollbar-x="false"  class="wide-as-needed">
+          <a class="button">this is a button : 1</a>
+          <a class="button">this is a button : 2</a>
+          <a class="button">this is a button : 3</a>
+          <a class="button">this is a button : 4</a>
+          <a class="button">this is a button : 5</a>
+          <a class="button">this is a button : 6</a>
+          <a class="button">this is a button : 7</a>
+          <a class="button">this is a button : 8</a>
+          <a class="button">this is a button : 9</a>
+          <a class="button">this is a button : 10</a>
+          <a class="button">this is a button : 11</a>
+          <a class="button">this is a button : 12</a>
+          <a class="button">this is a button : 13</a>
+          <a class="button">this is a button : 14</a>
+          <a class="button">this is a button : 15</a>
+          <a class="button">this is a button : 16</a>
+        </ion-scroll>
+        <br><br>
+        <ion-scroll direction="x" class="wide-as-needed">
+          <img src="img/dne.png">
+          <img src="img/dne.png">
+          <img src="img/dne.png">
+          <img src="img/dne.png">
+          <img src="img/dne.png">
+          <img src="img/dne.png">
+        </ion-scroll>
+        
+
+      </div>
+
+
+
+
+      <div class="">
+  <a class="button icon-right ion-chevron-right button-clear button-dark">Tendência</a>
+</div>
+<div class="">
+  <a class="button icon-right ion-chevron-right button-clear button-dark">Em Alta</a>
+</div>
+<div class="">
+  <a class="button icon-right ion-chevron-right button-clear button-dark">Populares</a>
+</div>
+<div class="">
+  <a class="button icon-right ion-chevron-right button-clear button-dark">Novos</a>
+</div>

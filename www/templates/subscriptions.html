@@ -1,0 +1,17 @@
+<ion-view view-title="Subscriptions">
+  <ion-content>
+    <div class="list fundo">
+			
+			<div ng-repeat="sub in subscriptions" class="item item-avatar subsitem item-icon-right">
+				<img src="img/st/{{sub.pThumb}}.jpeg" class="round-avatar">
+				<a href="#/app/subscriptions/{{sub.id}}" class"hhh"><i class="iconenter icon ion-ios-arrow-right"></i></a>
+				<div class="substext">
+					<h2>{{sub.pName}}</h2>
+	        <h4>{{sub.pAuthor}}</h4>
+	      </div>
+				
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

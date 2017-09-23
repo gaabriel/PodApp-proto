@@ -1,0 +1,45 @@
+<ion-view view-title="Podcast">
+<ion-nav-buttons side="right">
+  <button class="button button-icon icon ion-more"></button>
+</ion-nav-buttons>
+
+  <ion-content>
+  	<ion-scroll direction="y" scrollbar-y="false"></ion-scroll>
+    <div ng-repeat="sub in subscriptions | filter: nomefiltro">
+    	<span class="followicon"><i class="icon ion-ios-checkmark-outline"></i></span>
+    	<div class="cast_barra"></div>
+    	<div class="cast_profile">
+				<div class="cast_foto">
+					<img src="img/st/{{sub.pThumb}}.jpeg">
+				</div>
+				<div class="cast_name">
+					<div>
+						<span class="p_name">{{sub.pName}}</span>
+					</div>
+					<div>
+						<span class="p_author">by {{sub.pAuthor}}</span>
+					</div>
+				</div>
+
+			</div>
+    </div>
+
+		<div class="item item-body poddescription">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quis, id. Numquam, dicta eveniet facilis suscipit vero asperiores similique molestiae eum, enim sunt omnis, placeat obcaecati inventore repellat voluptatibus illo?</p>
+	  </div>
+
+    <div class="list">
+		  <div class="item item-icon-right">
+    		<i class="icon ion-ios-cloud-download"></i>
+    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam
+		  </div>
+		  <div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div><div class="item item-icon-right"> <i class="icon ion-ios-cloud-download"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam </div>
+		</div>
+
+  </ion-content>
+</ion-view>
+
+
+
+<!-- 
+slide box to comments and related casts -->
